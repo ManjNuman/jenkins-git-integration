@@ -17,5 +17,5 @@ test('Practice test 6', async ({ page }) => {
     console.log('Starting jenkins test6'); 
     await page.goto('https://google.com/');
     await expect(page).toHaveTitle('Google');
-    console.log('Ending jenkins test6');
+    console.log('Ending jenkins test666');
 });   
